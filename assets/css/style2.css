@@ -1,0 +1,114 @@
+/*dark background to support form theme*/
+body {
+  background: ;
+font-family:'Open Sans', sans-serif;
+}
+
+/*sass variables used*/
+/*site container*/
+.wrapper {
+  width: 420px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+  font: 25px 'Open Sans', sans-serif;
+  color: #FFF;
+  text-transform: camelcase;
+  text-shadow: #000 0px 1px 5px;
+  margin: 0px;
+}
+.foo{
+padding-top:165px;}
+
+p {
+  font: 14px Open Sans;
+  color: black;
+  
+
+  margin-bottom: 30px;
+}
+
+.form {
+  width: 100%;
+padding-top:50px;
+}
+
+select,input[type="date"],input[type="time"] {
+  width: 90%;
+  padding: 15px 0px 15px 8px;
+  border-radius: 5px;
+height:50px;
+  box-shadow: inset 4px 6px 10px -4px rgba(0, 0, 0, 0.3), 0 1px 1px -1px rgba(255, 255, 255, 0.3);
+  background:#1c2b4b;
+  outline: none;
+  border: none;
+font-family:'Open Sans', sans-serif;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: #000 0px 1px 5px;
+
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
+}
+input[type="submit"] {
+  width: 50%;
+  padding: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+background:#1c2b4b;
+  background-color:#1c2b4b;
+  font: 14px;
+font-family:'Open Sans', sans-serif;
+  color: #FFF;
+  
+border: 1px solid #1c2b4b;
+  opacity: 0.7;
+  
+border-top: 1px solid #1c2b4b !important;
+
+
+}
+
+input:focus {
+  box-shadow: inset 4px 6px 10px -4px rgba(0, 0, 0, 0.7), 0 1px 1px -1px rgba(255, 255, 255, 0.3);
+  background: #1c2b4b;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -o-transition: 1s ease;
+  -ms-transition: 1s ease;
+  transition: 1s ease;
+}
+
+input[type="submit"]:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.name-help, .lecture-help,.date-help,.time-help {
+  display: none;
+  padding: 0px;
+  margin: 0px 0px 15px 0px;
+}
+
+.optimize {
+  position: fixed;
+  right: 3%;
+  top: 0px;
+}
